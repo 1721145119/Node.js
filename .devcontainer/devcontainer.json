@@ -1,5 +1,5 @@
 {
-    "name": "神奇代码岛",
+    "name": "Node.js",
     "build": {
         "dockerfile": "Dockerfile"
     },
@@ -12,12 +12,10 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "box3lab.box3arenapro"
+                "ms-vscode.vscode-typescript-next"
             ],
             "settings": {
-                "nodeJsTool.InstallScript": "npx create-arena-project@latest ."//,
-                //"userCenterTool.AccountToken": "待填写",
-                //"userCenterTool.UserAgent": "待填写"
+                
             }
         }
     },
